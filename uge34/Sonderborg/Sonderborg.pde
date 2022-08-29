@@ -8,16 +8,20 @@
 
 PImage bg;
 
-
 void setup() {
-  size(640, 360);
+  size(1629, 1273);
   // The background image must be the same size as the parameters
   // into the size() method. In this program, the size of the image
-  // is 640 x 360 pixels.
+  // is1629 x 1273 pixels.
   bg = loadImage("Sønderborg.png");
 }
 
 void draw() {
   background(bg);
+  strokeWeight(5);
+  line(width/2,0,width/2,height);
+  
+  line (0,height/2,width,height/2);
+  
 
 }

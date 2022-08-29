@@ -1,23 +1,44 @@
-# Compiled class file
-*.class
+# exclude everything except directory foo/bar
+/games/*
+/file-io/*
+/images/*
 
-# Log file
+uge33/*
+uge34/*
+uge35/*
+uge35/*
+uge36/*
+uge37/*
+uge38/*
+uge39/*
+uge40/*
+uge41/*
+uge42/*
+uge43/*
+uge44/*
+uge45/*
+uge46/*
+uge47/*
+uge48/*
+uge49/*
+uge50/*
+uge51/*
+uge52/*
+Klasser_objekter/*
+
+
+
+uge5/*
+uge6/*
+
+rester/*
+
+*.aux
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*.dvi
+*.log
+*.gz
+*.tex
+*.out
+*.toc
+programmering.pdf
