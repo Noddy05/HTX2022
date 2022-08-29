@@ -2,6 +2,10 @@
 /games/*
 /file-io/*
 /images/*
+/klasse_objekter/*
+/kompendie/*
+/MVC/*
+
 
 uge33/*
 
@@ -25,10 +29,13 @@ uge52/*
 Klasser_objekter/*
 
 
-
+uge1/*
+uge2/*
+uge3/*
+uge4/*
 uge5/*
 uge6/*
-
+uge7/*
 rester/*
 
 *.aux
