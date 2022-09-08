@@ -1,36 +1,45 @@
-
+float myFrameCount =0;
+float oldFrameCount=0;
 void setup() {
-  size(800, 800);
-  //frameRate(910);
+  size(1600, 800);
 }
 
 void draw() {
   background(255);
   
+  if (myFrameCount>width){ //<>//
+    oldFrameCount = frameCount;
+  }
+  myFrameCount = frameCount - oldFrameCount;
+
   head();
   spine();
   legs();
 }
 
 void head() {
-  circle(frameCount, 240, 160);
+  circle(myFrameCount, 240, 160);
 }
 
 void spine() {
-  line(frameCount, 320, frameCount, 600);
+  line(myFrameCount, 320, myFrameCount, 600);
 }
 
 void legs() {
 
+  
   pushMatrix();
-  translate(frameCount, 600);
-  if (second() % 2 == 0) {
-    rotate(PI*0.4);
-  } else {
-    rotate((PI*0.6));
-  }
-
+  translate(myFrameCount, 600);
+  rotate(PI*0.4);
+  
   line(0, 0, 200, 0);
-
   popMatrix();
+  
+  
+  pushMatrix();
+  translate(myFrameCount, 600);
+  rotate((PI*0.6));
+  line(0, 0, 200, 0);
+  popMatrix();
+    
 }
