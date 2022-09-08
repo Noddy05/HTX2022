@@ -9,7 +9,7 @@ void setup() {
 void draw() {
   background(227); // farven på baggrunbd
 
-  myRadian = myRadian + 0.1 * dir; // beregning af antallet af radianer mit hjul skal dreje. Bruger jeg til rotate
+  myRadian = myRadian + 0.01 * dir; // beregning af antallet af radianer mit hjul skal dreje. Bruger jeg til rotate
 
   if (dir > 0) {  // hvis retningen er fra  højre mod venstre 
     myFrameCount++;  
