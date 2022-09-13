@@ -1,4 +1,4 @@
-int i = 0;
+int i = 0; 
 
 void setup(){
   size(1200, 1200);
