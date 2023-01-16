@@ -32,6 +32,15 @@ class Room {
   String getRoomName() {
     return name;
   }
+  
+  void printLight(){
+    if (light) {
+      text("Turning off the light in " + name, 100 + 200, 700);
+    } else {
+      text("Turning on the light in " + name, 100 + 200, 700);
+    }
+    light = !light;
+  }
 
   void drawRoom() {
     if (light)
@@ -43,6 +52,12 @@ class Room {
     textSize(15);
     fill(250);
     text(name, xPos+10, yPos+30);
+  }
+  
+  // OPGAVE 5
+  void drawRoof(){
+    fill(50);
+    triangle(50, 200, 250, 100, 450, 200);
   }
 
   boolean isRoomClicked(float x, float y) {
