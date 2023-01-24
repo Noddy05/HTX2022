@@ -60,6 +60,8 @@ class Room {
     triangle(50, 200, 250, 100, 450, 200);
   }
 
+
+  //OPG 11
   boolean isRoomClicked(float x, float y) {
     if ((x > xPos) && (x < xPos+width) && (y>yPos) && (y < yPos+height))
       return true;

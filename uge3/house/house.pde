@@ -6,7 +6,7 @@
  * Opg 4.a) 4 variabler og 2 konstanter. Variabler: navn, om der er lys, position (x og y). Konstanter: width og height (Størrelse på rummet)
  * Opg 4.b) Der er egentligt ikke nogen konstanter, men jeg tænker vi tæller width og height med som konstanter
  *          4 variabler
- * Opg 4.c) Hvad skal det overhovedet betyde?
+ * Opg 4.c) Der er 4 variabler som bestemmer klassens tilstand
  * Opg 5) Taget bliver tegnet på linje 29-30 (Uændret: linje 12-13) Ny funktion er på linje 49
  * 
 */
