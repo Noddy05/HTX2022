@@ -4,8 +4,7 @@ class Room {
   boolean light; //er lyset tændt eller slukket
   String name; // rummets navn
   float xPos, yPos; // x og y pos for rummets øverste venstre hjørne
-  int height = 100; // konstant højden på rummet
-  int width = 100; // konstant bredden på rummet
+  int height = 100, width = 100; // konstant højden på rummet
 
   //konstruktør
   Room(String n, boolean onOff, float x, float y) {
@@ -57,7 +56,7 @@ class Room {
   // OPGAVE 5
   void drawRoof(){
     fill(50);
-    triangle(50, 200, 250, 100, 450, 200);
+    triangle(50, 300, 250, 150, 450, 300);
   }
 
 

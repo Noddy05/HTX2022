@@ -25,8 +25,10 @@ String[] roomNames = new String[] { // OPG 7
 void setup() {
   size(800, 800);
   background(205);
-  for(int i = 0; i < house.length; i++){
-    house[i] = new Room(roomNames[i], false, 100, 200 + i * 100);
+  for(int y = 0; y < 2; y++){
+    for(int x = 0; x < 3; x++){
+      house[x + y * 3] = new Room(roomNames[x + y * 3], false, 100 + x * 100, 300 + y * 100);
+    }
   }
 }
 
